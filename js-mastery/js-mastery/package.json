@@ -1,0 +1,19 @@
+{
+  "name": "js-mastery",
+  "version": "1.0.0",
+  "description": "JavaScript from basics to advanced - runnable, commented examples",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/run-all.js",
+    "basics": "node scripts/run-all.js 01-basics",
+    "intermediate": "node scripts/run-all.js 02-intermediate",
+    "oop": "node scripts/run-all.js 03-oop",
+    "async": "node scripts/run-all.js 04-async",
+    "modules": "node 05-modules/main.js",
+    "advanced": "node scripts/run-all.js 06-advanced",
+    "patterns": "node scripts/run-all.js 07-design-patterns",
+    "dsa": "node scripts/run-all.js 08-data-structures-algorithms"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
